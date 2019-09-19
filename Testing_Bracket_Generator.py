@@ -6,7 +6,6 @@ def NewRoundIds( teams_in_tournament ):
         round_ids += [game_id]
         game_id += games_in_next_round
         games_in_next_round /= 2
-        print(round_ids)
     return round_ids
 
 NewRoundIds([1,2,3,4])
